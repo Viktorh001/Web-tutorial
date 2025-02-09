@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a rabbit video</p>
+    <video src="./source files/rabbit320.webm" controls>
+        <p>
+            your browser doesn't support html video. Here is a 
+            <a href="./source files/rabbit320.webm">Link to the video</a> instead.
+        </p>
+    </video>
+    <br>
+    <h1>This is a video that can play on any browser</h1>
+    <video 
+    controls
+    width="400"
+    height="400"
+    autoplay
+    loop
+    muted
+    preload="auto"
+    poster="./source files/poster.png">
+        <source src="./source files/rabbit320.mp4" type="video/mp4" />
+        <source src="./source files/rabbit320.webm" type="video/webm" />
+        <p>
+            Your browser does't support this video. Here is a 
+            <a href="./source files/rabbit320.mp4">Link to the vidoe</a> instead.
+        </p>
+    </video>
+
+
+    <audio controls>
+        <source src="./source files/viper.mp3" type="mp3" />
+        <source src="./source files/viper.ogg" type="ogg" />
+        <p>
+            Your browser doesn't support this audio file,Here is a
+            <a href="./source files/viper.mp3">link to the audio</a> instead.
+        </p>
+    </audio>
+
+</body>
+</html>
