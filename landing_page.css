@@ -102,3 +102,11 @@
 .box1-text{
     margin: 0 25px 25px 25px;
 }
+.quote{
+    background-color: lightgray;
+    color: #1f2937;
+    font-family: 'light italic';
+    font-size: 36px;
+    text-align: center;
+    padding: 70px 10px;
+}
